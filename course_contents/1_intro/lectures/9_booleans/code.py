@@ -25,3 +25,8 @@ user_number = int(input("Enter a number: "))
 
 print(my_number == user_number)
 print(my_number != user_number)
+
+if my_number == user_number:
+    print(f"Yes you are right.My number was {my_number} and you have provided {user_number}")
+else:
+    print(f"No you are not right! My number was {my_number} and you have provided {user_number}")

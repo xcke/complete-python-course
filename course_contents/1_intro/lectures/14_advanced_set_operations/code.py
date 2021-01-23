@@ -3,7 +3,7 @@ science_friends = {"Jen", "Charlie"}
 
 # -- Difference --
 # Gives you members that are in one set but not the other.
-
+print(set.__doc__)
 art_but_not_science = art_friends.difference(science_friends)
 science_but_not_art = science_friends.difference(art_friends)
 

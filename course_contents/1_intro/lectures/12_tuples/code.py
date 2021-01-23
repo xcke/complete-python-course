@@ -1,6 +1,8 @@
 # -- Defining tuples --
 
 short_tuple = "Rolf", "Bob"
+tuple_from_list = tuple([1,2,3,4,5])
+print(tuple_from_list)
 a_bit_clearer = ("Rolf", "Bob")
 not_a_tuple = "Rolf"
 
